@@ -1,0 +1,799 @@
+﻿body
+{
+}
+.supercharged
+{
+    float: left;
+    font-size: 16px;
+    padding-left: 30px;
+    width: 403px;
+    height: 430px;
+}
+
+.supercharged p
+{
+    font-family: "Trebuchet MS";
+}
+ul
+{
+    list-style-type: disc;
+}
+ul, ol
+{
+    margin-left: 0;
+    padding-left: 2em;
+}
+p, ul, ol, dl, pre, table, fieldset
+{
+    margin: 1em 0;
+}
+#content ul.numbers li
+{
+    height: 100%;
+    list-style: none outside none;
+    padding-left: 30px;
+    position: relative;
+}
+#content ul.numbers li span
+{
+    background: url("../images/re2social/bullet.png") no-repeat scroll center center transparent;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    left: 0;
+    padding: 8px;
+    position: absolute;
+    top: -7px;
+}
+ul.numbers li h3
+{
+    font-size: 14px;
+    line-height: 2em;
+    margin-top: 5px;
+}
+
+#content .section
+{
+    margin: 0;
+    padding: 0;
+}
+
+.how-it-works ul
+{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.how-it-works ul
+{
+    width: 797px;
+}
+.how-it-works .content
+{
+    margin-left: 20px;
+}
+.how-it-works div
+{
+    color: #3B3B3B;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+}
+@font-face
+{
+    font-family: 'CabinBold';
+    src: url('font/cabin-bold_0-webfont.eot');
+    src: url('font/cabin-bold_0-webfont.eot?#iefix') format('eot'), url('font/cabin-bold_0-webfont.woff') format('woff'), url('font/cabin-bold_0-webfont.ttf') format('truetype'), url('font/cabin-bold_0-webfont.svg#webfontuCcGsWb1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'WillowbankMedium';
+    src: url('font/willowbank-webfont.eot');
+    src: url('font/willowbank-webfont.eot?#iefix') format('eot'), url('font/willowbank-webfont.woff') format('woff'), url('font/willowbank-webfont.ttf') format('truetype'), url('font/willowbank-webfont.svg#webfont5P4JFFPr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*for IE*/
+@font-face
+{
+    font-family: 'CabinBold';
+    src: url('font/cabin-bold_0-webfont.eot');
+    src: url('font/cabin-bold_0-webfont.eot?#iefix') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'WillowbankMedium';
+    src: url('font/willowbank-webfont.eot');
+    src: url('font/willowbank-webfont.eot?#iefix') format('eot'), url('font/willowbank-webfont.woff') format('woff'), url('font/willowbank-webfont.ttf') format('truetype'), url('font/willowbank-webfont.svg#webfont5P4JFFPr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*end for IE*/
+@font-face
+{
+    font-family: "Cabin-Medium";
+    src: url('font/Cabin-Medium_0.ttf');
+}
+@font-face
+{
+    font-family: "Cabin-Regular";
+    src: url('font/Cabin-Regular_0.ttf');
+}
+@font-face
+{
+    font-family: "Cabin-SemiBold";
+    src: url('font/Cabin-SemiBold_0.ttf');
+}
+.numbers
+{
+    line-height: 26px;
+}
+#main-wrapper
+{
+    /* background: url('../images/re2social/bg-gradient-internal.png') repeat-x #e7f2f7;     min-height: 1006px;*/
+    line-height: 26px;
+}
+#content, .no-sidebars #content
+{
+    border-top: 1px solid white;
+    padding-top: 14px;
+}
+#header
+{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+#page
+{
+    background: url('../images/re2social/bg-top.png') no-repeat top;
+}
+h1.title
+{
+    font-family: "CabinBold";
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #3b3b3b;
+}
+.region-header
+{
+    float: right;
+    clear: none;
+}
+.region-footer
+{
+    background: #356376;
+    height: 55px;
+}
+
+#name-and-slogan
+{
+    text-indent: -9999px;
+    float: left;
+}
+
+/*bullet menu*/
+#content ul.numbers li
+{
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+    height: 100%;
+}
+#content ul.numbers li span
+{
+    background: url("../images/re2social/bullet.png") no-repeat center;
+    color: white;
+    font-size: 13px;
+    padding: 8px;
+    font-weight: bold;
+    top: -7px;
+    left: 0;
+    position: absolute;
+}
+/*end bullet menu*/
+ul.numbers li h3
+{
+    font-size: 14px;
+    line-height: 2em;
+    margin-top: 5px;
+}
+/*block-menu-menu-top-links*/
+#block-menu-menu-top-links ul.menu
+{
+    float: right;
+}
+#block-menu-menu-top-links ul.menu li
+{
+    display: inline;
+    list-style-image: none;
+    margin-left: 40px;
+}
+#block-menu-menu-top-links ul.menu li a.active
+{
+    color: #cc3910;
+}
+#block-menu-menu-top-links ul.menu li a
+{
+    text-decoration: none;
+    color: #356376;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+}
+/*end block-menu-menu-top-links*/
+
+/*block-menu-menu-footer-menu*/
+#block-menu-menu-footer-menu
+{
+    float: right;
+    clear: none;
+    background-image: url('../logo2.png') no-repeat left center;
+}
+#block-menu-menu-footer-menu ul.menu
+{
+    clear: none;
+    float: right;
+}
+#block-menu-menu-footer-menu ul.menu li
+{
+    display: inline;
+    list-style-image: none;
+}
+#block-menu-menu-footer-menu ul.menu li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 40px;
+    font-family: "Trebuchet MS";
+}
+/*end block-menu-menu-footer-menu*/
+
+table
+{
+    border-collapse: collapse;
+}
+#cont-btm span.rights
+{
+    float: left;
+    width: 490px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+
+h2, h1
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "CabinBold";
+    color: #356376;
+}
+
+.banner
+{
+    float: right;
+    width: 441px;
+    height: 492px;
+    position: relative;
+    left: 500px;
+    top: -455px;
+}
+.leverage
+{
+    float: left;
+    font-family: "Trebuchet MS";
+    width: 840px;
+    padding-left: 30px;
+}
+.leverage ul
+{
+    font-family: "Trebuchet MS";
+}
+
+#block-block-2
+{
+    float: right;
+    clear: both;
+    text-align: right;
+    color: #86a2ae;
+    font-family: "Trebuchet MS";
+    font-size: 11px;
+}
+#block-block-2 a
+{
+    text-decoration: none;
+    color: #86a2ae;
+}
+#block-block-1
+{
+    clear: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+#logo
+{
+    margin-top: 8px;
+}
+
+/*re2social-get-started-form*/
+#re2social-get-started-form
+{
+    margin-left: 100px;
+    margin-top: 55px;
+}
+#re2social-get-started-form img
+{
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+    margin-left: 27px;
+    height: 17px;
+    width: 132px;
+}
+#re2social-get-started-form input
+{
+    float: left;
+    clear: both;
+}
+/*end re2social-get-started-form*/
+.buttons
+{
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.buttons a
+{
+    float: left;
+    margin-right: 107px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+/*how-it-works*/
+.how-it-works .content
+{
+    margin-left: 20px;
+}
+.how-it-works #re2social-get-started-form
+{
+    float: right;
+    margin-top: 0;
+}
+.how-it-works ul
+{
+    width: 797px;
+}
+.how-it-works li
+{
+    color: #3b3b3b;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.how-it-works div
+{
+    color: #3b3b3b;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+}
+.how-it-works #re2social-get-started-form
+{
+    float: right;
+    left: -94px;
+    margin-top: 0;
+    position: relative;
+    top: -45px;
+}
+.how-it-works .how-this-works-header h2
+{
+    color: black;
+    margin-bottom: 20px;
+    padding-top: 21px;
+}
+.how-it-works .how-this-works-header p
+{
+    color: #3b3b3b;
+    font-size: 14px;
+}
+.how-it-works ul
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.how-it-works .fb-page
+{
+    margin-bottom: 30px;
+}
+.how-it-works a.float
+{
+    display: inline;
+    margin-right: 20px;
+}
+.how-it-works h2
+{
+    font-size: 16px;
+    font-family: "CabinBold";
+}
+.how-it-works table th
+{
+    font-family: "CabinBold";
+    font-size: 16px;
+}
+.how-it-works table.three img
+{
+    height: auto;
+    width: 220px;
+}
+.how-it-works table.two img
+{
+    height: auto;
+    width: 220px;
+}
+.how-it-works table a
+{
+    padding-right: 90px;
+}
+.how-it-works img
+{
+    height: auto;
+    width: 25%;
+}
+.how-it-works a
+{
+    display: block;
+}
+.how-it-works tr
+{
+    background: none;
+    padding: 0;
+    border: none;
+}
+/*end how-it-works*/
+
+.redcolor
+{
+    color: #cc3910;
+}
+
+/*drive-results-with-social-media*/
+.drive-results-with-social-media .page-header
+{
+}
+.drive-results-with-social-media h2
+{
+    color: black;
+}
+.drive-results-with-social-media .content
+{
+    margin-left: 30px;
+}
+.drive-results-with-social-media ul
+{
+    width: 833px;
+}
+.drive-results-with-social-media li
+{
+    color: #3b3b3b;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+}
+.drive-results-with-social-media div
+{
+    color: #356376;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+}
+.drive-results-with-social-media #re2social-get-started-form
+{
+    float: right;
+    left: -94px;
+    margin-top: 0;
+    position: relative;
+    top: -45px;
+}
+/*end drive-results-with-social-media*/
+
+/*pricing*/
+.pricing .content
+{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.pricing h2 span
+{
+    font-size: 12px;
+}
+.pricing ul.submenu
+{
+    margin-left: 30px;
+}
+.pricing table td
+{
+    font-family: "Trebuchet MS";
+}
+.pricing table .table-header
+{
+    font-family: "WillowbankMedium";
+    color: #c4cdd0;
+    font-size: 24px;
+    font-weight: normal;
+}
+.pricing table th.first, .pricing table td.first
+{
+    width: 285px;
+    padding-left: 10px;
+}
+.pricing table th.first, .pricing table td.first
+{
+    width: 355px;
+    height: 40px;
+}
+.pricing table td.second, .pricing table td.third
+{
+    text-align: center;
+}
+.pricing table tr
+{
+    background: none;
+}
+.pricing table h2
+{
+    color: #3b3b3b;
+    margin: 0;
+}
+.pricing table th
+{
+    border-bottom: 1px solid #CCCCCC;
+}
+.pricing table th div
+{
+    margin: 0;
+    font-family: "Trebuchet MS";
+    color: #356376;
+    line-height: 14px;
+    margin-bottom: 7px;
+}
+.sticky-header
+{
+    display: none;
+}
+.pricing table .price
+{
+    font-family: "CabinBold";
+    font-size: 24px;
+    color: #356376;
+}
+.pricing table .fee
+{
+    font-size: 12px;
+    color: #356376;
+}
+.pricing table .price
+{
+    background: #dde3e6;
+}
+.pricing table .price, .pricing table .purchase
+{
+    border-bottom: none;
+}
+.pricing table form
+{
+    margin-top: 10px;
+}
+.pricing table
+{
+    position: relative;
+    left: -20px;
+}
+.pricing .yes
+{
+    background: url('../Images/yes.png') no-repeat;
+    height: 25px;
+    width: 32px;
+    margin-left: 110px;
+}
+/*end pricing*/
+/*get-started-now*/
+.get-started-now:hover div
+{
+    color: #CC3910;
+}
+.get-started-now
+{
+    background: url('../images/re2social/btn-l.png') no-repeat;
+    width: 180px;
+    color: #356376;
+}
+.get-started-now div
+{
+    color: #356376;
+}
+.get-started-now:hover
+{
+    color: #CC3910;
+    background: url('../images/re2social/btn-l-hover.png') no-repeat;
+}
+.get-started-now .top
+{
+    font-family: "WillowbankMedium";
+    font-size: 18px;
+    width: 130px;
+    margin-left: 32px;
+}
+.get-started-now .bottom
+{
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+/*end get-started-now*/
+/*learn-more*/
+.learn-more:hover div
+{
+    color: #CC3910;
+}
+.learn-more
+{
+    background: url('../images/re2social/btn-r.png') no-repeat;
+    width: 217px;
+    color: #356376;
+}
+.learn-more div
+{
+    color: #356376;
+}
+.learn-more:hover
+{
+    color: #CC3910;
+    background: url('../images/re2social/btn-r-hover.png') no-repeat;
+}
+.learn-more .top
+{
+    font-family: "WillowbankMedium";
+    font-size: 18px;
+    width: 180px;
+    margin-left: 32px;
+}
+.learn-more .bottom
+{
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+/*end learn-more*/
+/*contact-us*/
+.content .contact-us
+{
+    margin: 20px;
+    margin-left: 40px;
+    color: #3b3b3b;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+}
+.content .contact-us a
+{
+    color: #3b3b3b;
+    font-family: "Trebuchet MS";
+    text-decoration: none;
+}
+.content .contact-us h2
+{
+    font-family: "Trebuchet MS";
+}
+.content .contact-us p
+{
+    margin: 0;
+}
+/*end contact-us*/
+
+.region-content .region-content
+{
+    color: #3b3b3b;
+    font-family: "Trebuchet MS";
+}
+.region-content a
+{
+    color: #3b3b3b;
+    font-family: "Trebuchet MS";
+    text-decoration: none;
+}
+
+#uc-cart-view-form, #uc-cart-checkout-form
+{
+    margin: 20px;
+}
+
+#block-re2social-gmap
+{
+    margin: 20px;
+    float: right;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#re2social-customer-info-form
+{
+    margin: 40px;
+}
+
+.shadow-l
+{
+    float: left;
+    margin-left: -1px;
+    width: 9px;
+    background: url('../images/re2social/shadow-l.png') repeat-y; /*  padding-bottom: 32000px;   margin-bottom: -32000px;*/
+}
+.shadow-r
+{
+    /* min-height: 1006px;  margin-left: 961px;*/
+    float: right;
+    width: 9px;
+    background: url('../images/re2social/shadow-r.png') repeat-y; /*  padding-bottom: 32000px;   margin-bottom: -32000px;*/
+}
+
+.shadow
+{
+    width: auto; /*  overflow: hidden;*/
+}
+
+table.two td
+{
+}
+
+#block-menu-menu-top-links h2
+{
+    display: none;
+}
+#block-menu-menu-footer-menu h2
+{
+    display: none;
+}
+
+table tr.odd td
+{
+    border-bottom: none;
+}
+
+div.messages, div.status, div.warning, div.error
+{
+    position: relative;
+    z-index: 64;
+}
+
+table.monthly-total
+{
+    text-align: right;
+}
+table.monthly-total tr.even, table.monthly-total tr.odd
+{
+    background: none;
+    border: none;
+}
+
+table.monthly-total .total-title
+{
+    font-weight: bold;
+}
+
+
+
+.clrscr
+{
+    clear: both;
+}

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Listonsocial.master.cs"
+    Inherits="Masters_Listonsocial" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%@ Register Src="~/Usercontrol/Content.ascx" TagPrefix="contents" TagName="Menu" %>
+<%@ Register Src="~/Usercontrol/Footer.ascx" TagPrefix="Footer" TagName="menu" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- General Styles Starts here-->
+    <link href="../Css/Basics.css" rel="stylesheet" type="text/css" />
+    <link href="../Css/contents.css" rel="stylesheet" type="text/css" />
+    <!-- General Styles Ends here-->
+    <link href="../Images/ListOnSocial-logo-fin.ico" rel="shortcut icon" type="image/ico" />
+    <title>List On Social</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <div id="container">
+        <div id="cont-top">
+            <contents:Menu ID="adMenu" runat="server" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <Footer:menu ID="Footer" runat="server" />
+    </div>
+    </form>
+</body>
+</html>
