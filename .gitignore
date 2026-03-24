@@ -1,0 +1,12 @@
+# Ignore GitHub Actions workflows
+.github/
+
+# Visual Studio
+.vs/
+*.suo
+bin/
+obj/
+
+# Optional (recommended)
+*.user
+*.cache
